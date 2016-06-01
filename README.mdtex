@@ -1,12 +1,12 @@
 # modified-newton-raphson
 
-> Find zeros a function using the [Modified Newton-Raphson](http://mathfaculty.fullerton.edu/mathews/n2003/newtonacceleratemod.html) method
+> Find zeros of a function using the [Modified Newton-Raphson](http://mathfaculty.fullerton.edu/mathews/n2003/newtonacceleratemod.html) method
 
 [![Build Status][travis-image]][travis-url] [![npm version][npm-image]][npm-url]  [![Dependency Status][daviddm-image]][daviddm-url] [![js-semistandard-style][semistandard-image]][semistandard-url]
 
 ## Introduction
 
-The Newton-Raphson method uses the tangent of a curve to iteratively approximate the zero of a function, `f(x)`. The [Modified Newton-Raphson](http://mathfaculty.fullerton.edu/mathews/n2003/newtonacceleratemod.html) [\[1\]](#references)[\[2\]](#references) method uses the fact that `f(x)` and `u(x) := f(x)/f'(x)` have the same zeros and instead approximates a zero of `u(x)`. That is, by defining$$u(x) = \frac{f(x)}{f'(x)},$$the Newton-Raphson update for `u(x)`,$$x_{i + 1} = x_i -\frac{u(x_i)}{u'(x_i)},$$becomes$$x_{i+1} = x_i - \frac{f(x_i)f'(x_i)}{(f'(x_i))^2 - f(x_i)f''(x_i)}.$$
+The Newton-Raphson method uses the tangent of a curve to iteratively approximate a zero of a function, `f(x)`. The [Modified Newton-Raphson](http://mathfaculty.fullerton.edu/mathews/n2003/newtonacceleratemod.html) [\[1\]](#references)[\[2\]](#references) method uses the fact that `f(x)` and `u(x) := f(x)/f'(x)` have the same zeros and instead approximates a zero of `u(x)`. That is, by defining$$u(x) = \frac{f(x)}{f'(x)},$$the Newton-Raphson update for `u(x)`,$$x_{i + 1} = x_i -\frac{u(x_i)}{u'(x_i)},$$becomes$$x_{i+1} = x_i - \frac{f(x_i)f'(x_i)}{(f'(x_i))^2 - f(x_i)f''(x_i)}.$$
 
 In other words, by effectively estimating the order of convergence, it overrelaxes or underrelaxes the update, in particular converging much more quickly for roots with multiplicity greater than 1.
 

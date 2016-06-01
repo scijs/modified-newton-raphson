@@ -1,7 +1,7 @@
 {
   "name": "modified-newton-raphson",
-  "version": "1.0.0",
-  "description": "Find zeros a function using the Modified Newton-Raphson method",
+  "version": "1.0.1",
+  "description": "Find zeros of a function using the Modified Newton-Raphson method",
   "main": "index.js",
   "author": {
     "name": "Ricky Reusser",
