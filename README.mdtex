@@ -75,8 +75,8 @@ Ricky Reusser
 [npm-image]: https://badge.fury.io/js/modified-newton-raphson.svg
 [npm-url]: https://npmjs.org/package/modified-newton-raphson
 [travis-image]: https://travis-ci.org/scijs/modified-newton-raphson.svg?branch=master
-[travis-url]: https://travis-ci.org//modified-newton-raphson
+[travis-url]: https://travis-ci.org/scijs/modified-newton-raphson
 [daviddm-image]: https://david-dm.org/scijs/modified-newton-raphson.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//modified-newton-raphson
+[daviddm-url]: https://david-dm.org/scijs/modified-newton-raphson
 [semistandard-image]: https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square
 [semistandard-url]: https://github.com/Flet/semistandard
