@@ -1,5 +1,4 @@
 examples
-images
 test
 .travis.yml
-README.mdtex
+*.mdtex
