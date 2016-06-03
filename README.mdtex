@@ -40,7 +40,7 @@ mnr(f, 2)
 $ npm install modified-newton-raphson
 ```
 
-## Usage
+## API
 
 #### `require('modified-newton-raphson')(f[, fp[, fpp]], x0[, options])`
 
@@ -59,6 +59,10 @@ Given a real-valued function of one variable, iteratively improves and returns a
   - `verbose` (default: `false`): Output additional information about guesses, convergence, and failure.
 
 **Returns**: If convergence is achieved, returns an approximation of the zero. If the algorithm fails, returns `false`.
+
+## See Also
+
+- [`newton-raphson-method`](https://www.npmjs.com/package/newton-raphson-method)
 
 ## References
 \[1\] Wu, X., [Roots of Equations](http://www.ece.mcmaster.ca/~xwu/part2.pdf), Course notes.<br>
